@@ -1,3 +1,7 @@
+local ESX = nil 
+
+TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
+
 local isMenuOpen = false
 local connect = false
 local chargement = 0.0
